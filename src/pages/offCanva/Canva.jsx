@@ -11,9 +11,9 @@ const canvasItems = [
 
 const Canva = () => {
   return (
-    <section className='container-fluid py-5'>
+    <section className='container-fluid py-5 canva-section'>
       <div className='container'>
-        <div className="row justify-content-center g-4">
+        <div className="row justify-content-center g-2">
           {canvasItems.map((item, index) => (
             <div key={index} className="col-lg-3 col-md-6 col-sm-12 text-center">
               <div className="canvas-box p-3">

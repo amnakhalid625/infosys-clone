@@ -47,15 +47,11 @@
   }
    */
 
-
-
-   
-
-   *{
-    color: white;
-}.talent{
+.talent{
     background-color: #8e2d8d;
     padding: 20px 0px;
+    color: white;
+
 
 }
 .talent h1{

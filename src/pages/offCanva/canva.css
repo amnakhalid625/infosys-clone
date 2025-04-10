@@ -1,16 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: black;
-  }
-  
-  body {
+
+
+  .canva-section{
     color: black !important;
   }
-  
   .canvas-box {
-    /* background-color: #f2f2f2; */
     border-radius: 12px;
     padding: 20px;
     transition: all 0.3s ease;

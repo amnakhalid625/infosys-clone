@@ -48,12 +48,11 @@
    */
 
 
-   
-*{
-    color: white;
-}.model{
+.model{
     background-color: #0271b1;
     padding: 20px 0px;
+    color: white;
+
 
 }
 .model h1{
