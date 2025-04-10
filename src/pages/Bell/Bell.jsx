@@ -2,7 +2,16 @@ import React from 'react'
 
 const bell = () => {
   return (
-    <div>bell</div>
+  <>
+  <section className='container bell-section'>
+
+
+
+
+  </section>
+  
+  
+  </>
   )
 }
 

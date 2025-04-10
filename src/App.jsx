@@ -5,6 +5,7 @@ import Model from './pages/operating-model/Model'
 import Talent from './pages/talent/Talent'
 import Next from './pages/next/Next'
 import OffCanvas from './pages/offCanva/Canva'
+import Bell from './pages/Bell/bell'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
    <Talent />
    <Next />
    <OffCanvas/>
+   <Bell />
 
     </>
   )
