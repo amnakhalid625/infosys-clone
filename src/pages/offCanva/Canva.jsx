@@ -1,48 +1,31 @@
-import React from 'react'
+import React from 'react';
 import { FaPlusCircle } from "react-icons/fa";
-import './canva.css'
+import './canva.css';
+
+const canvasItems = [
+  "Service Offerings",
+  "Explore Industries",
+  "Our Platforms",
+  "Navigate Your Next"
+];
 
 const Canva = () => {
   return (
-  <>
-  <section className='container-fluid'>
-    <div className='container '>
-        <div className="row canvas ">
-            <div className="col-lg-5 col-sm-12 col-12 d-flex flex-row justify-content-between g-4">
-                <div>
-                    <h5>Servinces Offering</h5>
-                    <FaPlusCircle />
-
-
-                </div>
-                <div>
-                <h5>Explore Industries</h5>
-                <FaPlusCircle />
-                </div>
-                <div>
-                <h5>Servinces Offering</h5>
-                <FaPlusCircle />
-                </div>
-                <div>
-                <h5>Our Plateforms</h5>
-                <FaPlusCircle />
-                </div>
-                <div>
-                <h5>Navigate Your Next</h5>
-                <FaPlusCircle />
-                </div>
-
-
-                </div>
+    <section className='container-fluid py-5'>
+      <div className='container'>
+        <div className="row justify-content-center g-4">
+          {canvasItems.map((item, index) => (
+            <div key={index} className="col-lg-3 col-md-6 col-sm-12 text-center">
+              <div className="canvas-box p-3">
+                <h5 className="fw-bold">{item}</h5>
+                <FaPlusCircle size={32} className="mt-2 plus-icon" />
+              </div>
+            </div>
+          ))}
         </div>
-    </div>
+      </div>
+    </section>
+  );
+};
 
-
-  </section>
-  
-  
-  </>
-  )
-}
-
-export default Canva
+export default Canva;
