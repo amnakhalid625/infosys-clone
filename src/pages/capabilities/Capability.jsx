@@ -7,20 +7,22 @@ const Capability = () => {
             <div className='capability-container background-butterfly'>
                 <div className="content-wrapper">
                     <div className="main-content">
-                        <h1>Digital Core Capabilities</h1>
+                        <h1>Custom Software Development</h1>
                         <p>Build vital capabilities to deliver digital outcomes.</p>
                         <button className="explore-btn">Explore</button>
                         
                         <div className='case-studies'>
                             <div className='case-study case1'>
-                                <p className="case-label">case studies</p>
-                                <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
-                                <p className="view-link">view</p>
+                                <p className="case-label">End-to-End Development</p>
+                                <h3>
+                                From concept to deployment, we handle the entire software development lifecycle.</h3>
                             </div>
                             
                             <div className='case-study case2'>
-                                <h3>A government that contributes to the joy of parenting</h3>
-                                <p className="view-link">view</p>
+                            <p className="case-label">Scalable and Flexible Solutions</p>
+
+                                <h3>
+                                Our solutions grow with your business, offering flexibility to adapt to changing market conditions.</h3>
                             </div>
                         </div>
                     </div>

@@ -4,8 +4,8 @@ import Capability from './pages/capabilities/Capability'
 import Model from './pages/operating-model/Model'
 import Talent from './pages/talent/Talent'
 import Next from './pages/next/Next'
-import OffCanvas from './pages/offCanva/Canva'
-import Bell from './pages/Bell/Bell'
+// import OffCanvas from './pages/offCanva/Canva'
+import Bell from './pages/Bell/bell'
 import Purpose from './pages/purpose/Purpose'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
    <Model />
    <Talent />
    <Next />
-   <OffCanvas/>
+   {/* <OffCanvas/> */}
    <Bell />
    <Purpose />
 

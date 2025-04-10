@@ -5,9 +5,9 @@ const Purpose = () => {
   return (
     <section className="purpose-section">
       <div className="purpose-container ">
-        <h2 className="purpose-heading">Our Purpose:</h2>
+        <h2 className="purpose-heading">Our Objective</h2>
         <p className="purpose-text">
-          To amplify human potential and create the next opportunity for people, businesses and communities
+        "We provide innovative, tailored technology solutions that drive business growth, streamline operations, and enhance productivity for our clients."
         </p>
       </div>
     </section>

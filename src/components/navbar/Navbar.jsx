@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoSearchSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from '../../assets/logo.png'
+import logo from '../../assets/elitelogo.png'
 import './navbar.css'
 
 const Navbar = () => {

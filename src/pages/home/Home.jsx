@@ -27,8 +27,7 @@ const Home = () => {
                 <div className="col-lg-7 col-md-9 col-sm-11">
                   <div className=" text-start slide1">
                     <p className=" text-white ">
-                      Infosys leads the industry with the fastest growing CAGR in brand value of 18% over 5 years. Maintains leadership as a global Top 3 IT services brand.
-                    </p>
+                    Welcome to Elite Tech Solutions Empowering Your Business with Innovative Technology Solutions                    </p>
                     <button className="btn btn-outline-light text-uppercase">Read More</button>
                   </div>
                 </div>
@@ -45,9 +44,7 @@ const Home = () => {
               <div className="row">
                 <div className="col-lg-7 col-md-9 col-sm-11">
                   <div className=" text-start silde2">
-                    <p className="text-white">Infosys and The Financial
-                    Times Unveil the ‘FT Money Machine’ Through Immersive Extended Reality
-                    Experience</p>
+                    <p className="text-white">We deliver tailored technology solutions to streamline operations, boost productivity, and drive growth.</p>
                     <button className="btn btn-outline-light text-uppercase">Know More</button>
                   </div>
                 </div>
@@ -64,9 +61,8 @@ const Home = () => {
               <div className="row">
                 <div className="col-lg-7 col-md-9 col-sm-11">
                   <div className=" text-start slide3">
-                    <p className=" text-white"> Infosys Aster - The
-                    AI-amplified Marketing Suite</p>
-                    <button className="btn btn-outline-light text-uppercase">Know More</button>
+                    <p className=" text-white"> To be the most trusted partner for businesses seeking to leverage technology to drive growth and innovation.</p>
+                    <button className="btn btn-outline-light text-uppercase">Our Vision</button>
                   </div>
                 </div>
               </div>
@@ -82,13 +78,9 @@ const Home = () => {
               <div className="row">
                 <div className="col-lg-7 col-md-9 col-sm-11">
                   <div className=" text-start slide4">
-                    <p>Champions Evolve.</p>
-                    <ul className="list-unstyled d-flex justify-content-start align-items-center gap-2 text-white text-uppercase">
-                      <li>Digital-First|</li>
-                      <li>Cloud-First|</li>
-                      <li>AI-First</li>
-                    </ul>
-                    <button className="btn btn-outline-light text-uppercase">Know More</button>
+                    <p>To deliver innovative, scalable, and secure technology solutions..</p>
+                  
+                    <button className="btn btn-outline-light text-uppercase">Our Mission</button>
                   </div>
                 </div>
               </div>
