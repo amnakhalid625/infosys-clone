@@ -1,67 +1,34 @@
-import React from 'react'
-import Ant from '../../assets/int.webp'
-import './model.css'
+import React from 'react';
+import './model.css';
 
 const Model = () => {
   return (
-    <div className='model   background-ant '>
-    <div className="col-lg-6 col-sm-12 col-12 mx-5 ">
-                    <div className=''>
-                        <h1>Digital Core Capabilities</h1>
-                        <p>Build vital capabilities to deliver digital outcomes.</p>
-                        <button className='section-buttons'>Explore</button>
-                        <div className='case-parent'>
-
-                            <div className='case1'>
-                                <p>case studies</p>
-                                <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
-                                <p>view</p>
-
-                            </div>
-                            <div className='case2'>
-                                <h3>A government that contributes to the joy of parenting</h3>
-                                <p>view</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                
-        {/* <div className="capability ">
-            <div className="row d-flex justify-content-start align-items-center">
-                <div className="col-lg-6 col-sm-12 col-12">
-                    <div>
-                        <h1>Digital Core Capabilities</h1>
-                        <p>Build vital capabilities to deliver digital outcomes.</p>
-                        <button>Explore</button>
-                        <div className='case-parent'>
-
-                            <div className='case1'>
-                                <p>case studies</p>
-                                <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
-                                <p>view</p>
-
-                            </div>
-                            <div className='case2'>
-                                <h3>A government that contributes to the joy of parenting</h3>
-                                <p>view</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                {/* <div className="col-lg-6 col-sm-12 col-12 butterflyImg">
-                    <img src={butterfly} alt="" className='img-fluid' />
-                </div> */}
-
-            {/* </div> */}
-        {/* </div> */} 
-
+    <div className='model-container'>
+      <div className='model-background'>
+        <div className='model-content'>
+          {/* Right side content */}
+          <div className='model-text'>
+            <h1>Digital Core Capabilities</h1>
+            <p>Build vital capabilities to deliver digital outcomes.</p>
+            <button className='section-buttons'>Explore</button>
+            
+            <div className='case-parent'>
+              <div className='case1'>
+                <p className="case-label">case studies</p>
+                <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
+                <p className="view-link">view</p>
+              </div>
+              
+              <div className='case2'>
+                <h3>A government that contributes to the joy of parenting</h3>
+                <p className="view-link">view</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
 
-export default Model
+export default Model;

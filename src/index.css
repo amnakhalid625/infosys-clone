@@ -8,7 +8,7 @@
 /* .borderd{
     border:2px solid green
 } */
-.capability{
+/* .capability{
     height: 700px;
     background: transparent;
     display: flex;
@@ -20,7 +20,9 @@
     background-position:  right bottom;
     background-size: contain;
     
-}
+} */
+
+
 .model{
     height: 700px;
     background: transparent;
