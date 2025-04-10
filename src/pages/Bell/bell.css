@@ -3,34 +3,32 @@
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    padding: 40px 20px;
+    padding: 60px 40px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    text-align: center;
     max-width: 1200px;
     margin: 0 auto;
+    min-height: 300px;
 }
 
 .bell-content {
-    max-width: 800px;
-    /* margin: 0 auto; */
+    max-width: 500px;
     color: white;
     text-align: left;
-    padding: 20px 0px;
+    padding-left: 20px;
 }
 
 .bell-heading {
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 1.3;
 }
 
 .bell-subheading {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 1.3;
 }
 
@@ -38,12 +36,13 @@
     background-color: white;
     color: #333;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 16px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-transform: uppercase;
 }
 
 .bell-button:hover {
