@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black ;
+
+}   
+body{
+    color: black !important;
+}
+
+
+.canvas{
+color: black !important;
+max-width: 800px !important;
+background-color: rebeccapurple;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}

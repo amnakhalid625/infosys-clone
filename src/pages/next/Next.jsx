@@ -1,47 +1,64 @@
-import React from 'react'
-import './next.css'
-import one from '../../assets/one.avif'
-import two from '../../assets/two.avif'
-import three from '../../assets/three.avif'
-import four from '../../assets/four.avif'
-import five from '../../assets/five.webp'
-// import six from '../../assets/six.avif'
+import './next.css';
+import one from '../../assets/one.avif';
+import two from '../../assets/two.avif';
+import three from '../../assets/three.avif';
+import four from '../../assets/four.avif';
+import five from '../../assets/five.webp';
 
 const Next = () => {
   return (
-  <>
-  <section className='container-fluid'>
-    <div className='container next-section '>
-    <h1 className=''>The Next</h1>
+    <section className="next-section container-fluid">
+      <div className="container text-center">
+        <h1>The next</h1>
+        <p className="subheading">
+          We bring you powerful advantages to navigate your digital transformation
+        </p>
+      </div>
 
-        <p>We bring you powerful advantages to navigate your digital transformation</p>
-
-        <div className=' d-flex flex-row justify-content-center align-items-center   '>
-
-            <div>
-                <img src={one} alt="" className='img-fluid' />
-            </div>
-            <div>
-                <img src={two} alt="" className='img-fluid' />
-            </div>
-            <div>
-                <img src={three} alt="" className='img-fluid'/>
-            </div>
-
-            
-            <div>
-                <img src={four} alt="" className='img-fluid' />
-            </div>
-            <div>
-                <img src={five} alt=""   className='img-fluid' />
-            </div>
-      
+      <div className="next-grid container">
+        <div className="next-item large">
+          <img src={one} alt="Experience"  />
+          <span className="label">Experience</span>
+          <div className='overlay'>
+            <h3>Experience </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium?</p>
+          </div>
         </div>
-    </div>
-  </section>
-  
-  </>
-  )
-}
+        <div className="next-item">
+          <img src={two} alt="Insight"  />
+          <span className="label">Insight</span>
+          <div className='overlay'>
+            <h3>Experience </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium?</p>
+          </div>
+        </div>
+        <div className="next-item">
+          <img src={three} alt="Innovate" />
+          <span className="label">Innovate</span>
+          <div className='overlay'>
+            <h3>Experience </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium?</p>
+          </div>
+        </div>
+        <div className="next-item">
+          <img src={four} alt="Accelerate" />
+          <span className="label">Accelerate</span>
+          <div className='overlay'>
+            <h3>Experience </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium?</p>
+          </div>
+        </div>
+        <div className="next-item">
+          <img src={five} alt="Assure" />
+          <span className="label">Assure</span>
+          <div className='overlay'>
+            <h3>Experience </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default Next
+export default Next;
