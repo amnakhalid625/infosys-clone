@@ -17,7 +17,6 @@ function App() {
    <Model />
    <Talent />
    <Next />
-   {/* <OffCanvas/> */}
    <Bell />
    <Purpose />
 
