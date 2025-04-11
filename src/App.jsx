@@ -8,6 +8,7 @@ import Bell from './pages/bell/Bell';
 import Purpose from './pages/purpose/Purpose'
 
 function App() {
+  
 
   return (
    <>

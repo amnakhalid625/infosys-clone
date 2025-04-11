@@ -1,5 +1,5 @@
 import React from 'react';
-import './Bell.css';
+import './bell.css';
 
 const Bell = () => {
   return (
